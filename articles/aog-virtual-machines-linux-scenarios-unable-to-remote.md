@@ -21,6 +21,9 @@
 
 
 ##<a id="scenario01"></a>场景1 
+由于Linux存在不同的distribution, 且不同版本之间对于相关配置都有一些差别, 所以麻烦用合适的语句进行免责说明
+比如:
+本场景测试环境为某某Linux, 版本号为xxx.xxx.xx, 如果您当前使用的非该版本, 请注意版本的差异性
 在配置文件（/etc/sysconfig/network-scripts/ifcfg-eth0）中配置固定的IP地址或MAC地址：
 
 	DHCP_HOSTNAME=DanCentOS65
